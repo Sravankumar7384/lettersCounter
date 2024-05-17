@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  background: linear-gradient(to right, #1d976c, #219a6f, #93f9b9);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 35px;
+  margin-left: 30px;
+}
+.enter {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.search-input {
+  background-color: transparent;
+  height: 30px;
+  width: 300px;
+  border: 2px solid #e4e7eb;
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  outline: none;
+}
+.button {
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #219a6f;
+  height: 40px;
+  border: none;
+  margin-left: 30px;
+  width: 140px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+.stopwatch-img {
+  height: 600px;
+  width: 800px;
+}
